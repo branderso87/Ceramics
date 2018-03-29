@@ -11,14 +11,17 @@
     font-family: 'Roboto';
 }
 
-.nav { 
-    
+.nav {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    justify-content: center;
 }
 
-ul {
+.header-list {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 
