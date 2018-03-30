@@ -12,8 +12,10 @@
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 .nav {
@@ -32,20 +34,31 @@
 }
 
 .header-list {
-    display: flex;
-    flex-direction: row;
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 400px;
     border: 2px solid black;
-    
+    text-align: center;
+   
 }
 
 .header-item {
     border: 2px solid black;
     margin: 0px 30px 0px 30px;
-    /* display: flex;
-    flex-direction: row; */
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: underline;
+    color: #2B2F26;
+}
+
+nav a:hover {
+    color: #CD5D67;
+}
+
+nav a:active {
+    color: #968772;
 }
 
 
