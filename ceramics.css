@@ -5,10 +5,11 @@
 
 .body {
     background-color: #F2F1E8;
-    box-sizing: content-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+    border: 5px solid black
 }
 
 .header {
@@ -84,7 +85,7 @@ h1 {
     float: left;
 }
 
-.para1, para2 {
+p {
     font-size: 1.2em;
 }
 
@@ -95,13 +96,15 @@ h2 {
 
 .cactusbox {
     position: relative;
-    width: 100%
+    width: 100%;
+    /* height: 50%; */
 }
 
 .cactustxt {
+    color: white;
     position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100%;
+    top: 75px;
+    left: 600px;
+    font-weight: lighter;
 }
 
