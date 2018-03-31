@@ -22,6 +22,7 @@
 }
 
 .logo-box {
+    padding: 1.5vh;
     width: 35px;
     height: 35px;
 }
@@ -31,15 +32,11 @@
     flex-direction: row;
     align-self: center;
     border: 2px solid black;
-    padding: 0;
+    padding: 2vh;
     margin: 0;
+    font-size: .8em;
 }
 
-/* .logoimg { 
-    width: 35px;
-    height: 35px;
-    border: 2px solid black;
-} */
 
 .header-list {
     list-style-type: none;
@@ -52,7 +49,7 @@
 
 .header-item {
     border: 2px solid black;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 25px 0px 25px;
     padding: 0;
     display: inline-block;
 }
@@ -72,17 +69,32 @@ nav a:active {
 
 section {
     border: 2px solid black;
-    margin: 0 75px 0 75px;
+    margin: 0vw 10vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.para1 {
-    display: flex;
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
 
+.birdhouse {
+    float: left;
+}
 
+.para1, para2 {
+    font-size: 1.2em;
+}
 
+h2 {
+    padding: 0;
+    margin: 0;
+}
 
+.cactus {
+    height: 20%;
+}
 
 
