@@ -38,7 +38,6 @@
     font-size: .8em;
 }
 
-
 .header-list {
     list-style-type: none;
     padding: 0;
@@ -68,9 +67,9 @@ nav a:active {
     color: #968772;
 }
 
-.section {
+.section1, .section2 {
     border: 2px solid black;
-    margin: 0vw 10vh;
+    margin: 0vw 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -87,17 +86,24 @@ h1 {
 
 p {
     font-size: 1.2em;
-    margin: 0;
+    margin: .5% 0 .5% 0;
 }
 
 h2 {
     padding: 0;
-    margin: 0;
+    margin: .5% 0 .5% 0;
+}
+
+.quote {
+    border: 2px solid black;
+    padding: .5% .5% .5% 1.5%;
 }
 
 .cactusbox {
     position: relative;
     width: 100%;
+    padding: 0;
+    margin: .5% 0 .5% 0;
 }
 
 .cactustxt {
