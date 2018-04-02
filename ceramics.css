@@ -101,13 +101,14 @@ h2 {
     padding: .5% .5% .5% 1.5%;
 }
 
-.cactusbox {
-    { background-image: url("images/background-3.jpg");
-        min-height: 500px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+.parallax {
+    background-image: url("images/background-3.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* .cactusbox {
     position: relative;
@@ -124,7 +125,7 @@ h2 {
     font-weight: lighter;
 } */
 
-.section2 {
+/* .section2 {
     border: 2px solid black;
     margin: 0vw 20vh;
     display: flex;
@@ -142,4 +143,4 @@ aside {
 }
 
 .shelfspace {
-    margin: 1%;
+    margin: 1%; */
