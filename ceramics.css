@@ -1,4 +1,6 @@
-/* Save this section down for the header */
+/* header */
+
+/* Maybe add a drop shadow to the header later */
 
 .body {
     background-color: #F2F1E8;
@@ -66,7 +68,9 @@ nav a:active {
 a { 
     color: #968772}
 
-/* Save this section up for the header */
+/*header */
+
+/* body of about page */
 
 .section1 {
     margin: 0vw 20vh;
@@ -158,6 +162,14 @@ th, tr, td {
 .darktable {
     background-color: rgb(230, 215, 195);
 }
+
+/* body of newsletter */
+.main-img {
+    width: 100%;
+    height: 100vh;
+}
+
+/* footer */
 
 footer {
     border: 2px solid black;
