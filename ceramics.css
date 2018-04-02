@@ -1,16 +1,11 @@
-/* @font-face {
-    font-family: 'Roboto';
-    src: url('https://fonts.googleapis.com/css?family=Roboto')
-} 
-
-FONT FACE NOT WORKING */
+/* Save this section down for the header */
 
 .body {
     background-color: #F2F1E8;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto';
+    font-family: 'Merriweather';
     color: #131511;
 }
 
@@ -23,6 +18,7 @@ FONT FACE NOT WORKING */
     margin: 0;
     position: fixed;
     width: 100%;
+    font-family: 'Roboto'
 }
 
 .logo-box {
@@ -70,6 +66,7 @@ nav a:active {
 a { 
     color: #968772}
 
+/* Save this section up for the header */
 
 .section1 {
     margin: 0vw 20vh;
