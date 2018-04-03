@@ -170,10 +170,11 @@ th, tr, td {
 .box {
     z-index: 0;
     position: absolute;
-    padding: 10%;
+    padding: 10% 15%;
     border: 2px solid black;
-    left: 25%;
-    bottom: 15%;
+    background-color: #FFFFFF;
+    left: 28%;
+    bottom: 25%;
 }
 
 
