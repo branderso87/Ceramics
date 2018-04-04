@@ -200,8 +200,8 @@ p.input {
 
 .button {
     border: 1px solid black;
-    margin: 2%;
-    padding: 2.5%;
+    margin: 2vh 20vw;
+    padding: 2%;
     text-align: center;
     width: 100px;
     display: flex;
@@ -209,7 +209,9 @@ p.input {
     justify-content: center;
 }
 
-/* p.submit {
-    border: 1px solid black;
-} */
+p.submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
