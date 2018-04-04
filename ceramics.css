@@ -175,7 +175,7 @@ th, tr, td {
     border: 2px solid black;
     background-color: #FFFFFF;
     left: 20%;
-    bottom: 40%;
+    bottom: 30%;
     
 }
 
@@ -194,8 +194,10 @@ th, tr, td {
 }
 
 p.input {
-    border-bottom: 2px solid tan;
+    border-bottom: 2px solid #968772;
     padding: 2.5%;
+    font-family: 'Roboto';
+    color: gray;
 }
 
 .button {
@@ -207,11 +209,19 @@ p.input {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #968772;
+    color: #F2F1E8;
+    font-family: 'Roboto'
+}
+
+.button:hover {
+    color: #FFFFFF;
 }
 
 p.submit {
     display: flex;
     flex-direction: row;
     justify-content: center;
+   
 }
 
